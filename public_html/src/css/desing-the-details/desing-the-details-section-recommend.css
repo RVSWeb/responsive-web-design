@@ -1,0 +1,65 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+
+.article--first {
+  display: inline-table;
+}
+
+.section--recommended {
+
+}
+
+.figure--recommend {
+  display: inline-table;
+  width: 30%;
+  height: 200px;
+  padding: 1%;
+}
+
+.figure-xiaomi {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.figure-man {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.figure-couple {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.photo-section-recommend {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+
+h5{
+  padding: 2%;
+  margin: 3% auto;
+}
+
+.title-promo {
+  width: 70%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+figcaption{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.description-recommend{
+  margin: 0 auto;
+  text-align: center;
+  text-indent: 5%;
+}

@@ -1,0 +1,96 @@
+<!-- 
+Created on : 19-sep-2019 19:34:04 
+User : Raul Vela 
+Name archive : fluid-grids-&-layout.html
+Ref : p34
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Fluid aspect ratio</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content=".">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      .decorate {
+        width: 30%;
+        padding: 1%;
+        margin: 1% auto;
+        text-align: center;
+        font-family: 'Roboto',sans-serif;
+        background-color: #badfdb;
+      }
+
+      .imagen-600x400px{
+        margin: 0 auto;
+        width: 600px;
+        height: 400px;
+        background-image: url("src/img/pink-600x399.jpg");
+      }
+
+      .txt-deco-600x400px{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-weight: bold;
+        padding-left: 5%;
+        padding-top: 63%;
+      }
+
+      h1{
+        width: 80%;
+        padding: 1%;
+        margin: 5% auto;
+        text-align: center;
+        font-family: 'Roboto',sans-serif;
+        background-color: #badfdb;
+      }
+
+      .imagen-300x200px{
+        margin: 5% auto;
+        width: 300px;
+        height: 200px;
+        background-image: url("src/img/pink-600x399.jpg");
+      }
+
+      .txt-deco-300x200px{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-weight: bold;
+        padding-left: 5%;
+        padding-top: 50%;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <h2 class="decorate">High resolution with the maximum compression rate</h2>
+    <p class="decorate">600px x 400px file</p>
+
+    <div class="imagen-600x400px">
+      <span class="txt-deco-600x400px">
+        600x400px file (7kb) 0% JPEG compresion - displayed in 600x400
+      </span>
+    </div>
+
+    <h1>0% JPEG compression displayed in 300x200</h1>
+
+    <div class="imagen-300x200px">
+      <span class="txt-deco-300x200px">
+        300x200px file (7kb) 0% JPEG compresion - displayed in 600x400
+      </span>
+    </div>
+
+  </body>
+</html>

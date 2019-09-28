@@ -1,0 +1,288 @@
+<!-- 
+Created on : 19-sep-2019 19:34:04 
+User : Raul Vela 
+Name archive : fluid-grids-&-layout.html
+Ref : p39
+
+font-family: 'Fondamento', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Turret Road', cursive;
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Breakpoints & media queries</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content="breakpoints & media queries">
+    <meta name="keywords" content="HTML,CSS,breakpoints & media queries">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://fonts.googleapis.com/css?family=Fondamento|Megrim|Rock+Salt|Sacramento|Turret+Road&display=swap" 
+          rel="stylesheet">
+    <link rel="icon" type="image/png" 
+          href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" 
+          type="text/css" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      /* Personalización general */ 
+      @media only screen {
+        body {
+          color: red;
+          font-family: 'Turret Road',sans-serif;
+          background-color: black;
+        }
+      }
+
+      /* Personalización disposicion de la pantalla - Por debajo < 319 se apaisaja la pantalla */
+      @media only screen and (device-width: 320px) and (orientation: landscape) {
+        body{
+          padding-top: 15px;
+          color: aqua;
+          font-family: 'Fondamento',sans-serif;
+          background-color: blue;
+        }
+      }
+
+      /* Personalización disposicion de la pantalla */
+      @media screen and (device-width: 320px) and (orientation: portrait) {
+        body{
+          padding-top: 20px;
+          color: white;
+          font-family: "Rock Salt",sans-serif;
+          background-color: brown;      
+        }
+      }
+
+      @media screen and (max-width: 479px) {
+
+        .main--wrapper {         
+          font-size: 2em;
+          width: 300px;
+        }
+
+        .width-479{
+          background-color: green;
+        }
+
+        .width-480{
+          display: none;
+        }
+
+        .width-768{
+          display: none;
+        }
+
+        .width-1024{
+          display: none;
+        }
+
+        .width-1178{
+          display: none;
+        }
+
+        .width-1280{
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 480px) and (max-width: 767px) {
+
+        .main--wrapper {
+          font-size: 2em;
+          width: 460px;
+        }
+
+        .width-479{
+          display: none;
+        }
+
+        .width-480{
+          background-color: burlywood;
+        }
+
+        .width-768{
+          display: none;
+        }
+
+        .width-1024{
+          display: none;
+        }
+
+        .width-1178{
+          display: none;
+        }
+
+        .width-1280{
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1023px) { 
+
+        .main--wrapper {
+          font-size: 2em;
+          width: 760px;
+        }
+
+        .width-479{
+          display: none;
+        }
+
+        .width-480{
+          display: none;
+        }
+
+        .width-768{
+          background-color: gold;
+        }
+
+        .width-1024{
+          display: none;
+        }
+
+        .width-1178{
+          display: none;
+        }
+
+        .width-1280{
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 1024px) and (max-width: 1177px){
+
+        .main--wrapper {
+          font-size: 2em;
+          width: 960px;
+        }
+
+        .width-479{
+          display: none;
+        }
+
+        .width-480{
+          display: none;
+        }
+
+        .width-768{
+          display: none;
+        }
+
+        .width-1024{
+          background-color: orange;
+        }
+
+        .width-1178{
+          display: none;
+        }
+
+        .width-1280{
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 1178px) and (max-width: 1279px){
+        .main--wrapper {
+          font-size: 2em;
+          width: 1150px;
+        }
+
+        .width-479{
+          display: none;
+        }
+
+        .width-480{
+          display: none;
+        }
+
+        .width-768{
+          display: none;
+        }
+
+        .width-1024{
+          display: none;
+        }
+
+        .width-1178{
+          background-color: springgreen;
+        }
+
+        .width-1280{
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+
+        .main--wrapper {
+          font-size: 2em;
+          width: 1240px;
+        }
+
+        .width-479{
+          display: none;
+        }
+
+        .width-480{
+          display: none;
+        }
+
+        .width-768{
+          display: none;
+        }
+
+        .width-1024{
+          display: none;
+        }
+
+        .width-1178{
+          display: none;
+        }
+
+        .width-1280{
+          background-color: white;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2 class="decorate">Examples of different Media Queries</h2>
+    <p>
+      Media Queries is a CSS3 module allowing<br>
+      content rendering to adapt to conditions<br>
+      such as screen resolution (e.g. smartphone<br>
+      vs. high definition screen)<br>
+    </p>
+
+    <main class="main--wrapper">
+      <p class="width-479">
+        width-479px
+      </p>
+      <p class="width-480">
+        width-480px
+      </p>
+      <p class="width-768">
+        width-768px
+      </p>
+      <p class="width-1024">
+        width-1024px
+      </p>
+      <p class="width-1178">
+        width-1178px
+      </p>
+      <p class="width-1280">
+        width-1280px
+      </p>
+    </main>
+
+  </body>
+</html>

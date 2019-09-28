@@ -1,0 +1,89 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Seccion de los distintos moviles
+ *
+*/
+
+
+@media screen and (max-width: 320px) {
+
+  .figure--movil{
+    width: 100%;
+  }
+
+  .figure-popular--deco{
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .photo-section--handsets{ 
+    margin: 0 auto;
+  }
+
+  .title--mark {
+    width: 40%;
+    margin: 2% auto;
+    font-size: 0.9em;
+  }
+
+  .subtitle--mark , 
+  .price--product {
+    width: 40%;
+    margin: 1% auto;
+  }
+
+  .button__section {
+    width: 60%;
+    margin: 5% 20%;
+  }
+
+  .button-handsets--fit {
+
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+  .figure--movil{
+    width: 100%;
+  }
+
+  .figure-popular--deco{
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .photo-section--handsets{ 
+    margin: 0 auto;
+  }
+
+  .title--mark {
+    width: 40%;
+    margin: 2% auto;
+    font-size: 0.9em;
+  }
+
+  .subtitle--mark , 
+  .price--product {
+    width: 40%;
+    margin: 1% auto;
+  }
+
+  .button__section {
+    width: 60%;
+    margin: 5% 20%;
+  }
+
+  .button-handsets--fit {
+
+  }
+
+}

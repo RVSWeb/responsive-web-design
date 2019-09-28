@@ -1,0 +1,64 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Pie de la pagina principal
+ *
+*/
+
+.footer--top-line{
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.footer--deco{
+  margin-bottom: 6%;
+}
+
+.footer__article {
+  display: flex;
+  flex-direction: row;
+}
+
+.article__object{
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.link--deco{
+  color: #000;
+  text-decoration: none;
+  margin: 0 1% 0 1%;
+}
+
+.line-vertical , 
+.line-txt--deco{
+  color: #ccc;
+}
+
+.line-txt--deco{
+  margin-left: 8%;
+}
+
+.footer__nav {
+  margin-left: 1%;
+  width: 100%; 
+}
+
+.nav--deco {
+  text-decoration: none;
+}
+
+.logo {
+  text-indent: -9999px;
+  width: 1%;
+  height: 1%;
+  background: url("../..//img/icons/logo_du_newblue.svg");
+  background-size: 1% 1%;
+}

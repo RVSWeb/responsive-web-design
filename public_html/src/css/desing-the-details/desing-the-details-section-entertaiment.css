@@ -1,0 +1,206 @@
+/* 
+    Created on : 24-sep-2019, 11:11:23
+    Author     : RVS
+*/
+
+.section--entertainment {
+
+}
+
+.article--width {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /*background-color: red;*/ 
+}
+
+.column {
+  flex: 25%;
+  /*reduce la anchura entre las imagenes*/ 
+  /*max-width: fit-content;*/  
+  padding: 0.2%;
+}
+
+.column > .figure--entertainment {
+  vertical-align: middle;
+}
+
+.figure--entertainment {
+  width: auto;
+  max-width: available;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.photo-section-entertainment {
+  padding: 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.author-post {
+  display: block;
+  padding-top: 5%;
+  padding-left: 10%;  
+}
+
+.photo--film-1{
+  width: 100%;
+  height: auto;
+}
+
+.photo--film-2 {
+  width: 80%;
+  height: auto;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 0;
+  border-radius: 12px;
+}
+
+.photo--film-3 {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.photo--film-4 {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.photo--singer-1 {
+  width: 100%;
+  /*max-width: 400px;*/
+  height: auto;
+  padding: 10% 10% 0% 10%; 
+}
+
+.photo--singer-2{
+  padding: 0;
+}
+
+.photo--singer-3 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0%;
+}
+
+.photo--singer-4 {
+  width: 100%;
+  height: auto;
+}
+
+.title-mark--entertainment-singer-1 ,
+.title-mark--entertainment-singer-2 ,
+.title-mark--entertainment-singer-3 , 
+.title-mark--entertainment-singer-4 {
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+
+.title-mark--entertainment-singer-2 {
+  width: 75%;
+}
+
+.title-mark--entertainment-singer-3 {
+  width: 80%;
+}
+
+.title-mark--entertainment-film-1 {
+  width: 70%;
+}
+
+.title-mark--entertainment-film-2 {
+  width: 20%;
+}
+
+.title-mark--entertainment-film-1 ,
+.title-mark--entertainment-film-2 ,
+.title-mark--entertainment-film-3 ,
+.title-mark--entertainment-film-4{
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 12px;  
+}
+
+.title-mark--entertainment-film-3{
+  width: 80%;
+  
+}
+
+.title-mark--deco {
+  color: #20c8f7;
+  text-align: left;
+  font-weight: bolder;
+} 
+
+.subtitle-mark--entertainment {
+  width: 100%;
+  margin: 1% auto;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 0.9em;
+}
+
+.synopsis-1 ,
+.synopsis-3 ,
+.synopsis-4 ,
+.synopsis-5 ,
+.synopsis-6 {
+  width: 90%;
+  font-size: 0.8em;
+  margin-left: 10%;
+  padding: 0%;
+}
+
+.synopsis-2 {
+  width: 90%;
+  font-size: 0.8em;
+  margin-left: 10%;
+  padding: 0%;
+}
+
+.film--synopsis-singer-1 {
+  width: 90%;
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-left: 10%;
+  padding: 0%;
+}
+
+.section--entertainment-read {
+  display: block;
+  width: 50%;
+  margin: 10% 10%;
+  color: #20c8f7;
+  text-align: left;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.section--entertainment-read-film-1 {
+  width: 60%;
+}
+

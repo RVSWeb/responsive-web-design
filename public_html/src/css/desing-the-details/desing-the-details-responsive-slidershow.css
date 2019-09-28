@@ -1,0 +1,103 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Pie de la pagina principal
+ *
+*/
+
+@media screen and (max-width: 320px) {
+
+  body{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .container--slideshow {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+  }
+
+  /* Hide the images by default */
+  .slides--show {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+  }
+
+  .button--text {
+    width: 50%;
+  }
+
+  img{
+    vertical-align: middle;
+  }
+
+  .img--slider-show{
+    width: 100%;
+    height: auto;
+  }
+
+  .title--deco{
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .dot-down{
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 320px) {
+
+  body{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .container--slideshow {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+  }
+
+  /* Hide the images by default */
+  .slides--show {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+  }
+
+  .button--text {
+    display: block;
+  }
+
+  img{
+    vertical-align: middle;
+  }
+
+  .img--slider-show{
+    width: 100%;
+    height: auto;
+  }
+
+  .title--deco{
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .dot-down{
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+}

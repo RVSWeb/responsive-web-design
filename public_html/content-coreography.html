@@ -1,0 +1,153 @@
+<!-- 
+Created on : 19-sep-2019 14:46:34 
+User : Raul Vela 
+Name archive : content-coreography.html
+Ref : p28
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Content Coreography</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content=".">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Roboto',sans-serif;
+        background-color: #fbe9d2;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        padding: 0.5%;
+      }
+
+      main > nav,
+      main > aside {
+        flex: 1;
+      }
+
+      main > article {
+        flex: 2;
+      }
+
+      main > nav { 
+        order: 0;
+        margin-right: 1%;
+      }
+
+      main > article { 
+        order: 1;
+      }
+
+      main > aside { 
+        order: 2;
+        margin-left: 1%;
+      }
+
+      header , footer {
+        width: 100%;
+        height: auto;
+        line-height: 250%;
+        padding: 0.5%;
+        margin-top : 1%;
+        background-color: #51a7fa;
+      }
+
+      nav , aside {
+        width: 100%;
+        height: auto;
+        padding: 0.5%;
+        line-height: 400px;
+        background-color: #85baee;
+      }
+
+      article {
+        width: 100%;
+        height: auto;
+        padding: 0.5%;
+        line-height: 400px;
+        background-color: #a6c8e4;
+      }
+
+      @media screen and (max-width: 33.236em){
+
+        main{
+          display: flex;
+          background-color: red;
+        }
+
+        main > nav,
+        main > aside {
+          width: 33%;
+          flex: 1;
+        }
+
+        main > article {
+          width: 33%;
+          flex: 2;
+        }
+
+        main > nav { 
+          width: 33%;
+          order: 0;
+        }
+
+        main > article { 
+          width: 33%;
+          order: 1;
+        }
+
+        main > aside { 
+          width: 33%;
+          order: 2;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      &lt;header&gt;
+    </header>
+
+    <main>
+      <nav>
+        &lt;nav&gt;
+      </nav>
+
+      <article>
+        &lt;article&gt;
+      </article>
+
+      <aside>
+        &lt;aside&gt;
+      </aside>
+    </main>
+
+    <footer>
+      &lt;footer&gt;
+    </footer>
+
+
+  </body>
+</html>

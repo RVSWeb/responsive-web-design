@@ -1,0 +1,21 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Pie de la pagina principal
+ *
+*/
+
+@media screen and (max-width: 320px) {
+
+  .button--text{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1%;
+    font-size: 0.8em;
+  }
+
+}

@@ -1,0 +1,105 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Pie de la pagina principal
+ *
+*/
+
+@media screen and (max-width: 320px) {
+
+  footer{
+    width: 100%;
+  }
+
+  .footer--deco{
+    
+  }
+
+  .footer__article{
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .nav--deco{
+    width: 100%;
+    padding: 5%;
+  }
+
+  .article__object{
+    margin: 2% auto;
+  }
+
+  .link--deco{
+    display: block;
+    text-align: left;
+    margin-top: 5%;
+  }
+
+  .line-vertical{
+    display: none;
+  }
+
+  .line-txt--deco{
+    display: block;
+    width: 100%;
+    margin: 25% auto 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+  footer{
+    width: 100%;
+  }
+
+  .footer--deco{
+
+  }
+
+  .footer__article{
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .nav--deco{
+    width: 100%;
+    padding: 5%;
+  }
+
+  .article__object{
+    margin: 2% auto;
+    padding: 0 45% 0 45%;
+  }
+
+  .link--deco{
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+  }
+
+  .line-vertical{
+    display: none;
+  }
+
+  .line-txt--deco{
+    display: block;
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+  }
+
+}

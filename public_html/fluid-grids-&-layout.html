@@ -1,0 +1,73 @@
+<!-- 
+Created on : 19-sep-2019 19:34:04 
+User : Raul Vela 
+Name archive : fluid-grids-&-layout.html
+Ref : p30
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Fluid Grids & Layout</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content=".">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="theme-color" content="#4285f4">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      div {
+        width: 100%;
+        height: 50px;
+        background-color: #ccccff;
+      }
+
+      @media screen and (min-width: 960px){
+
+        div {
+          /*Calcular el porcentaje en pixeles 
+          para una pantalla de 960px */
+          /* 200px / ( 960px * 100 ) */
+          width: 20.83%; 
+          height: 50px;
+          background-color: #ff9999;
+        }
+      }
+
+      @media screen and (min-width: 988px){
+
+        h1{
+          font-family: 'Georgia',sans-serif;
+          font-size: 1.5em;
+          background-color: #ccffcc;
+        }
+
+        h1{
+          width: 70.85%;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <h1>
+      <!-- 24 target para la letra -->
+      <!-- 16px por 1em -->
+      24 : 16px = 1.5em; --> font-style<br>
+      ----------------<br>
+      <!-- 700px ancho de la caja -->
+      <!-- 988px ancho del dispositivo -->
+      700px : 988 = 0.7085 --> div<br>
+    </h1>
+    <div>
+      Contenedor o caja
+    </div>
+  </body>
+</html>

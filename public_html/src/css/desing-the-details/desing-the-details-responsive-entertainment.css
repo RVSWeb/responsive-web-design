@@ -1,0 +1,64 @@
+/* 
+    Created on : 22-sep-2019, 14:36:46
+    Author     : RVS
+*/
+
+/*
+ * Seccion de las recomendaciones
+ *
+*/
+
+@media screen and (max-width: 320px) {
+
+
+  .figure--entertainment{
+    width: 100%;
+  }
+
+  .photo--singer-4 ,
+  .photo--film-4 {
+    width: 50%;
+    margin: 3% auto;
+  }
+
+  .title-mark--entertainment-film-1,
+  .title-mark--entertainment-film-2,
+  .title-mark--entertainment-film-3,
+  .title-mark--entertainment-film-4
+  {
+    width: 85%;
+    padding: 1%;
+    font-size: 0.9em;
+  }
+
+  .title-mark--entertainment-film-3{
+    font-size: 0.8em;
+  }
+
+  .title-mark--entertainment-singer-1 ,
+  .title-mark--entertainment-singer-2 ,
+  .title-mark--entertainment-singer-3 , 
+  .title-mark--entertainment-singer-4 {
+    font-size: 0.8em;
+    padding: 1%;
+  }
+  
+  .synopsis-2{
+    width: 90%;
+    font-size: 0.75em;
+  }
+
+  .button-load {
+    width: 98%;
+    height: 3em;
+    margin: 1%;
+  }
+
+  .button-load--deco {
+    text-align: center;
+    font-size: 1em;
+    color: #20c8f7;
+    font-weight: bolder;
+  }
+
+}

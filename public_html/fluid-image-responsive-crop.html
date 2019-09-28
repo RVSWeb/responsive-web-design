@@ -1,0 +1,69 @@
+<!-- 
+Created on : 19-sep-2019 19:34:04 
+User : Raul Vela 
+Name archive : fluid-grids-&-layout.html
+Ref : p33
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Fluid Grids & Layout - Responsive Crop</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content=".">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      .decorate {
+        width: 30%;
+        padding: 1%;
+        margin: 1% auto;
+        text-align: center;
+        font-family: 'Roboto',sans-serif;
+        background-color: #ccffcc;
+      }
+
+      .responsive-crop {
+        width: 100%;
+        height: 960px;
+        background-image: url("src/img/camino-1440x960px.jpg");
+        background-size: cover;
+        background-position: center; /*IE fix*/
+      }
+
+      .details{
+        float: left;
+        padding-top: 85%;
+        padding-left: 1%;
+        color: #f00;
+        font-family: 'Roboto',sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2 class="decorate">Responsive Crop</h2>
+    <p class="decorate">Recortar la imagen - Image crop</p>
+    <p class="decorate">
+      Al tener establecido un valor en el <b>height</b> de la imagen 
+      mediante pixeles y <b>'responsive-crop'</b> mediante porcentaje
+      <br>
+      Si se modifica el tamaño de la imagen el texto se movera de lugar
+    </p>
+    <p class="decorate">Contiene el width: 100% y height: 960px </p>
+    <span class="details">.responsive-crop</span>
+    <p class="responsive-crop"></p>
+
+  </body>
+</html>

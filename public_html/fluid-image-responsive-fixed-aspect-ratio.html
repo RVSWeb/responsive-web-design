@@ -1,0 +1,228 @@
+<!-- 
+Created on : 19-sep-2019 19:34:04 
+User : Raul Vela 
+Name archive : fluid-grids-&-layout.html
+Ref : p34
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Fluid aspect ratio</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content=".">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      /*720×360*/
+      @media screen and (max-width: 1440px) and (min-width: 721px){
+
+        .decorate {
+          width: 30%;
+          padding: 1%;
+          margin: 1% auto;
+          text-align: center;
+          font-family: 'Roboto',sans-serif;
+          background-color: #badfdb;
+        }
+
+        div.column {
+          /* The background image must be 800px wide */
+          max-width: 800px;
+        }
+
+        figure.fluid--ratio{
+          padding-top: 10%; /* slope - inclinacion */
+          height: 120px; /* start height */
+
+          background-image: url('https://voormedia.com/examples/amsterdam.jpg');
+          background-size: cover;
+          -moz-background-size: cover;
+          background-position: center;
+        }
+
+        .figcaption-width{
+          margin: 0 auto;
+          padding-top: 12%;
+          padding-left: 5%;
+          font-size: 1.1em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          color: #f00;
+        }
+
+        .decorate-width {
+          width: 10%;
+          padding: 0.5%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 2em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #badfdb;
+        }
+
+        .decorate-width-hidden {
+          display: none;
+          width: 5%;
+          padding: 0.5%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 2em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #badfdb;
+        }
+      }
+
+      /*720×360*/
+      @media screen and (max-width: 720px) and (min-width: 360px){
+        
+        .decorate {
+          width: 30%;
+          padding: 1%;
+          margin: 1% auto;
+          text-align: center;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+
+        div.column {
+          /* The background image must be 800px wide */
+          max-width: 800px;
+        }
+
+        figure.fluid--ratio{
+          padding-top: 10%; /* slope - inclinacion */
+          height: 120px; /* start height */
+
+          background-image: url('https://voormedia.com/examples/amsterdam.jpg');
+          background-size: cover;
+          -moz-background-size: cover;
+          background-position: center;
+        }
+
+        .figcaption-width{
+          margin: 0 auto;
+          padding-top: 12%;
+          padding-left: 5%;
+          font-size: 1.1em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          color: #f00;
+        }
+
+        .decorate-width {
+          display: none;
+          width: 15%;
+          padding: 0.5%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 2em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+
+        .decorate-width-hidden {
+          display: block;
+          width: 5%;
+          padding: 1%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 1em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+      }
+      
+      @media screen and (max-width: 360px) {
+        .decorate {
+          width: 30%;
+          padding: 1%;
+          margin: 1% auto;
+          text-align: center;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+
+        div.column {
+          /* The background image must be 800px wide */
+          max-width: 800px;
+        }
+
+        figure.fluid--ratio{
+          padding-top: 10%; /* slope - inclinacion */
+          height: 120px; /* start height */
+
+          background-image: url('https://voormedia.com/examples/amsterdam.jpg');
+          background-size: cover;
+          -moz-background-size: cover;
+          background-position: center;
+        }
+
+        .figcaption-width{
+          margin: 0 auto;
+          padding-top: 12%;
+          padding-left: 5%;
+          font-size: 1.1em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          color: #f00;
+        }
+
+        .decorate-width {
+          display: none;
+          width: 5%;
+          padding: 0.5%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 2em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+
+        .decorate-width-hidden {
+          display: block;
+          width: 5%;
+          padding: 1%;
+          margin-left: 3.6%;
+          text-align: center;
+          font-size: 1em;
+          font-weight: bold;
+          font-family: 'Roboto',sans-serif;
+          background-color: #f8a978;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2 class="decorate">Fluid image</h2>
+    <p class="decorate">Fixed aspect ratio vs fluid aspect ratio</p>
+
+    <div class="column">
+      <figure class="fluid--ratio">
+
+        <figcaption class="figcaption-width">
+          max-width: 800px; 
+          La imagen no se adapta cuando se reduce la pantalla del dispositivo
+        </figcaption>
+      </figure>
+    </div>
+    <p class="decorate-width">4:1</p>
+    <p class="decorate-width-hidden">2:1</p>
+
+  </body>
+</html>
