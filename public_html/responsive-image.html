@@ -1,0 +1,95 @@
+<!-- 
+Created on : 01-oct-2019 16:54:32 
+User : Raul Vela 
+Ref : https://www.smashingmagazine.com/2013/07/choosing-a-responsive-image-solution/
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Responsive Image</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content="Responsive Image">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4285f4">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      header{
+        margin: 0 auto;
+        padding: 1%;
+        background-color: #393e46;
+      }
+
+      .branding{
+        margin: 1% auto;
+        border-radius: 7px;
+      }
+
+      .box-one{
+        border-radius: 7px;
+      }
+
+      .box-two{
+
+      }
+
+      .first-img {
+        background-color: #eeeeee;
+        border-radius: 7px;
+      }
+
+      .first-img-main {
+        max-width: 100%;
+        margin: 1% auto;
+        padding-left: 35%;
+        border-radius: 7px;
+      }
+
+      .first-img-legend {
+        width: 20%;
+        margin: 1% auto;
+        padding: 1%;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Roboto',sans-serif;
+        background-color: #00adb5;
+        border-radius: 7px;
+      }
+
+      .branding{
+        max-width: 150px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="box-one">
+        <img class="branding" 
+             src="src/img/icons/logotipo.jpg" 
+             alt="cartel con el logotipo principal de la pagina">
+      </div>
+    </header>
+
+    <main>
+      <div class="box-two">
+        <figure class="first-img">
+          <img class="first-img-main" 
+               src="src/img/background/forest/forest-600x400.jpg"
+               alt="Camino de tierra que tiene a ambos lados grandes arboles 
+               llenos de hojas y al final del camino hay una puerta">
+          <figcaption class="first-img-legend">max-width: 100%</figcaption>
+        </figure>
+      </div>
+    </main>
+
+  </body>
+</html>

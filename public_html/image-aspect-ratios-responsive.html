@@ -1,0 +1,90 @@
+<!-- 
+Created on : 01-oct-2019 19:11:11 
+User : Raul Vela 
+Ref : https://www.sitepoint.com/maintain-image-aspect-ratios-responsive-web-design/
+--> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Image aspect ratios responsive</title>
+    <!--Parte tecnica que recibe el servidor-->
+    <meta charset="utf-8">
+    <meta name="author" content="Raul Vela Salas , raulvelasalas@gmail.com">
+    <meta name="description" content="Image aspect ratios responsive">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4285f4">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <style>
+
+      p{
+        width: 60%;
+        max-width: 100%;
+        height: auto;
+        padding: 1%;
+        margin: 1% auto;
+        background-color: #f9d5bb;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Roboto',sans-serif;
+      }
+
+      ul{
+        width: 100%;
+        padding: 0;
+        margin: 0 0 2em 0;
+        list-style-type: none;
+      }
+
+      li{
+        float: left;
+        width: 33.3%;
+        padding: 0;
+        margin: 0;
+        background-color: #000;
+        border: 10px solid #fff;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      li a{
+        display: block;
+        width: 100%;
+        /* Para Imagenes responsiva */
+        position: relative;
+        height: 0;
+        padding: 56.25% 0 0 0;
+        overflow: hidden;
+      }
+
+      img{
+        display: block;
+        max-width: 100%;
+        /* Para Imagenes responsiva */
+        position: absolute;
+        max-height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Franjas negras si la imagen no ocupa todo el ancho de la caja</p>
+      <ul>
+        <li><a href="#"><img src="http://lorempixel.com/320/180/sports"></a></li>
+        <li><a href="#"><img src="http://lorempixel.com/320/180/city"></a></li>
+        <li><a href="#"><img src="http://lorempixel.com/352/198/technics"></a></li>
+      </ul>
+    </div>
+  </body>
+</html>
